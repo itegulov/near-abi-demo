@@ -1,7 +1,7 @@
 use near_sdk::near_abi;
 
 #[near_abi]
-mod abi {
+mod adder {
     use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
     use near_sdk::near_bindgen;
     use near_sdk::schemars::JsonSchema;
